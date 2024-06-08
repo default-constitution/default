@@ -1,5 +1,5 @@
 body {
-    background-color: #FF4500; /* High contrast orange background color */
+    background-color: #121212; /* High contrast orange background color */
     color: #e0e0e0;
     font-family: 'Roboto', sans-serif;
     font-size: 13px;
@@ -25,6 +25,7 @@ body {
 .content-title a {
     font-size: 22px; /* Increased font size for the title */
     font-weight: bold;
+    background-color: #FF4500;
     color: #800080; /* Purple color for the URLs */
     text-decoration: none;
 }
