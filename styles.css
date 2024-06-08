@@ -25,7 +25,7 @@ body {
 .content-title a {
     font-size: 22px; /* Increased font size for the title */
     font-weight: bold;
-    background-color: #FF4500;
+    background: #FF4500;
     color: #800080; /* Purple color for the URLs */
     text-decoration: none;
 }
