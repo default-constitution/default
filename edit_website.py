@@ -60,7 +60,7 @@ class WebsiteEditor:
 
 # Usage Example
 if __name__ == "__main__":
-    editor = WebsiteEditor('website.xml')
+    editor = WebsiteEditor('index.xml')
     editor.add_group_section('New Group')
     editor.add_content_section('New Group', 'http://example.com', 'Example Title', 'Example description', 'http://example.com/image.jpg', '#example #test')
     print(editor.help())
