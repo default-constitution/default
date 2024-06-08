@@ -1,0 +1,37 @@
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.group-title {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.group-separator {
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 20px;
+}
+
+.content-section {
+    margin-bottom: 20px;
+}
+
+.content-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.content-description {
+    font-size: 14px;
+}
+
+.content-hashtags {
+    font-size: 12px;
+    color: #a0a0a0;
+}
