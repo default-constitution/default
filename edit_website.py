@@ -51,7 +51,13 @@ class WebsiteEditor:
                 self.changes_made = True
 
     def save_changes(self):
-        self.tree.write(self.xml_file)
+        xml_declaration = '<?xml version="1.0" encoding="UTF-8"?>\n'
+        stylesheet = '<?xml-stylesheet type="text/xsl" href="style.xsl"?>\n'
+        xml_string = ET.tostring(self.root, encoding='unicode')
+        with open(self.xml_file, 'w') as file:
+            file.write(xml_declaration)
+            file.write(stylesheet)
+            file.write(xml_string)
         self.changes_made = False
 
     def discard_changes(self):
@@ -71,7 +77,7 @@ class WebsiteEditor:
         """
 
 def main():
-    editor = WebsiteEditor('website.xml')
+    editor = WebsiteEditor('index.xml')
 
     while True:
         print("\nWebsite Editor Options:")
