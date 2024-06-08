@@ -1,5 +1,5 @@
 body {
-    background-color: #121212;
+    background-color: #FF4500; /* High contrast orange background color */
     color: #e0e0e0;
     font-family: 'Roboto', sans-serif;
     font-size: 13px;
@@ -22,16 +22,22 @@ body {
     margin-bottom: 20px;
 }
 
-.content-title {
-    font-size: 18px;
+.content-title a {
+    font-size: 22px; /* Increased font size for the title */
     font-weight: bold;
+    color: #800080; /* Purple color for the URLs */
+    text-decoration: none;
+}
+
+.content-title a:hover {
+    text-decoration: underline;
 }
 
 .content-description {
-    font-size: 14px;
+    font-size: 18px; /* Increased font size for the description */
 }
 
 .content-hashtags {
-    font-size: 12px;
+    font-size: 14px; /* Increased font size for the hashtags */
     color: #a0a0a0;
 }
