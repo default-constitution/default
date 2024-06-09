@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="style.xsl"?>
 <website title="Default">
     <groupSections>
-        <groupSection>
+        <groupSection><title>Top Ten</title><contentSections /></groupSection><groupSection>
             <title>Group 1</title>
             <contentSections>
                 <contentSection>
@@ -14,5 +14,5 @@
                 </contentSection>
             </contentSections>
         </groupSection>
-    <groupSection><title>Top Ten</title><contentSections /></groupSection></groupSections>
+    </groupSections>
 </website>
