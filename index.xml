@@ -14,5 +14,5 @@
                 </contentSection>
             </contentSections>
         </groupSection>
-    </groupSections>
+    <groupSection><title>Top Ten</title><contentSections /></groupSection></groupSections>
 </website>
